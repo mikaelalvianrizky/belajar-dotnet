@@ -7,18 +7,18 @@ namespace Domain
 {
     public class Activity
     {
-        public Guid id {get; set;}
+        public Guid Id {get; set;}
         
-        public string title {get; set;}
+        public string Title {get; set;}
 
-        public DateTime date {get; set;}
+        public DateTime Date {get; set;}
     
-        public string description {get; set;}
+        public string Description {get; set;}
 
-        public string category {get; set;}
+        public string Category {get; set;}
 
-        public string city {get; set;}
+        public string City {get; set;}
 
-        public string venue {get; set;}
+        public string Venue {get; set;}
     }
 }

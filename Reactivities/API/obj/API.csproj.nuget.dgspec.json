@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\API\\API.csproj": {}
+    "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\API\\API.csproj": {
+    "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\API\\API.csproj",
+        "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\API\\obj\\",
+        "outputPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Application\\Application.csproj"
+              "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -42,13 +42,15 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -78,14 +80,14 @@
         }
       }
     },
-    "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Application\\Application.csproj": {
+    "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Application\\obj\\",
+        "outputPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -100,11 +102,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\Domain.csproj"
               },
-              "d:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "d:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Persistence\\Persistence.csproj"
+              "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -138,14 +140,14 @@
         }
       }
     },
-    "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\Domain.csproj": {
+    "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\obj\\",
+        "outputPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -191,14 +193,14 @@
         }
       }
     },
-    "d:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Persistence\\Persistence.csproj": {
+    "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "d:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "d:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -213,8 +215,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -229,10 +231,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.0, )"
