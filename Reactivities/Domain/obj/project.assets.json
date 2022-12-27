@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\Domain.csproj",
+      "projectPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\belajar-dotnet\\Reactivities\\Domain\\obj\\",
+      "outputPath": "D:\\Project\\Endavo\\Belajar BE\\.NET\\Reactivities\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
